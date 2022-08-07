@@ -1,14 +1,23 @@
-@import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@400;500;700&display=swap");
 
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body a {
+    cursor: pointer;
+    text-decoration: none;
+}
+body a:visited, html a:visited {
+    color: #000000;
+}
 body,
 html {
   margin: 0;
+}
+
+body button {
+    cursor: pointer;
 }
 /* barra topo */
 .navbar img {
@@ -79,14 +88,17 @@ a :visited {
   border: 1px solid #dbdbdb;
   position: relative;
   top: 88px;
-  left: 215px;
+  left: 295px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .stories-box {
   text-align: center;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   position: relative;
   top: 18px;
   z-index: 1;
@@ -102,10 +114,13 @@ a :visited {
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 20px;
   cursor: pointer;
   position: relative;
+  margin-left: 15px;
+}
+.storie2 {
+  margin-left: 50px;
 }
 .stories p {
   margin-top: 5px;
@@ -126,7 +141,7 @@ a :visited {
   height: 920px;
   border: 1px solid #dbdbdb;
   position: relative;
-  left: 215px;
+  left: 295px;
   top: 60px;
   border-radius: 5px;
   margin-top: 50px;
@@ -165,10 +180,7 @@ a :visited {
   flex-direction: row;
   height: 200px;
 }
-/* .post-footer :nth-child(4) {
-  position: relative;
-  left: 470px;
-} */
+
 .likes img {
   width: 20px;
   height: 20px;
@@ -242,36 +254,74 @@ a :visited {
   font-weight: 700;
 }
 .suggestions-content img {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-}
-.user :nth-child(3) {
-    color: #139ef2;
-}
-.user :nth-child(2) {
-    color: #8e8e8e8e;
-}
-.suggestions-content p {
-    font-size: 14px;
-   
-}
-.container-suggestions {
-     background-color: red;
-     height: calc(100% - 54px);
-     width: 100%;
-     position: fixed;
-     left: calc(50% + 147px);
-     z-index: 1;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 .suggestions-content {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    max-width: 293px;
-    position: fixed;
-    left: calc(50% + 147px);
+    position: relative;
+}
+.user :nth-child(3) {
+  color: #139ef2;
+}
+.user :nth-child(2) {
+  color: #8e8e8e8e;
+}
+.user {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+.user p {
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.suggestions-content p {
+  font-size: 14px;
+}
+.suggestions-p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8e8e8e8e;
+    display: inline-block;
+}
+.suggestions a {
+    color: #000000;
+    font-weight: bold;
+    float: right;
+}
+
+.comments ion-icon {
+  position: absolute;
+  left: 550px;
+}
+
+.like1 {
+  position: absolute;
+  left: 94.5%;
+  top: 88%;
+  font-size: 20px;
+}
+.like2 {
+  position: absolute;
+  left: 94.5%;
+  top: 85%;
+  font-size: 20px;
+}
+.container-suggestions {
+    width: 300px;
+    height: 320px;
     margin-top: 88px;
-    background-color: yellow;
-    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 950px;
+}
+.profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
