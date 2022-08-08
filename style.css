@@ -4,13 +4,17 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 body a {
-    cursor: pointer;
-    text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
 }
-body a:visited, html a:visited {
-    color: #000000;
+
+body a:visited,
+html a:visited {
+  color: #000000;
 }
+
 body,
 html {
   margin: 0;
@@ -20,8 +24,9 @@ html {
 }
 
 body button {
-    cursor: pointer;
+  cursor: pointer;
 }
+
 /* barra topo */
 .navbar img {
   width: 103px;
@@ -38,6 +43,7 @@ input {
   border: #dbdbdb solid 1px;
   margin-bottom: 8px;
 }
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -50,22 +56,27 @@ input {
   z-index: 2;
   margin-top: 0px;
 }
+
 a {
   color: #000000;
   text-decoration: none;
 }
+
 a :visited {
   color: #000000;
 }
+
 .logo ion-icon {
   font-size: 22px;
   margin-right: 10px;
 }
+
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .nav-box {
   display: flex;
   justify-content: space-between;
@@ -74,6 +85,7 @@ a :visited {
   width: 1100px;
   height: 38px;
 }
+
 .icons {
   width: 150px;
   color: #000000;
@@ -97,6 +109,7 @@ a :visited {
   justify-content: center;
   align-items: center;
 }
+
 .stories-box {
   text-align: center;
   width: 100%;
@@ -107,6 +120,7 @@ a :visited {
   top: 10px;
   left: 10px;
 }
+
 .stories img {
   width: 58px;
   height: 58px;
@@ -114,6 +128,7 @@ a :visited {
   border: 2px solid rgb(255, 60, 93);
   padding: 2px;
 }
+
 .stories {
   width: 66px;
   height: 110px;
@@ -124,6 +139,7 @@ a :visited {
   top: 18px;
   margin-left: 18px;
 }
+
 .stories p {
   margin-top: 5px;
   font-size: 12px;
@@ -131,6 +147,7 @@ a :visited {
   justify-content: center;
   align-items: center;
 }
+
 .button {
   font-size: 35px;
   position: absolute;
@@ -151,12 +168,14 @@ a :visited {
   border-radius: 5px;
   margin-top: 50px;
 }
+
 .post-top img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin-right: 15px;
 }
+
 .post-top {
   height: 50px;
   display: flex;
@@ -166,28 +185,33 @@ a :visited {
   font-size: 14px;
   font-weight: 500;
 }
+
 .post-top ion-icon {
   position: relative;
   left: 470px;
 }
+
 .post img {
   width: 612px;
   height: 612px;
 }
+
 .post-footer ion-icon {
   margin-top: 10px;
   font-size: 22px;
   margin-left: 15px;
 }
+
 .post-footer {
   position: relative;
   display: flex;
   flex-direction: row;
   height: 200px;
 }
+
 .marker {
-    position: relative;
-    left: 450px;
+  position: relative;
+  left: 450px;
 }
 
 .likes img {
@@ -195,16 +219,20 @@ a :visited {
   height: 20px;
   border-radius: 50%;
 }
+
 .likes p {
   font-size: 14px;
   margin-left: 5px;
 }
+
 .likes a {
   text-decoration: none;
 }
+
 .likes a :visited {
   color: #000000;
 }
+
 .likes {
   display: flex;
   position: absolute;
@@ -213,28 +241,34 @@ a :visited {
   margin-top: 8px;
   top: 20px;
 }
+
 .comments {
   position: absolute;
   top: 70px;
   left: 12px;
   font-size: 14px;
 }
+
 .comments p {
   margin-bottom: 8px;
   margin-top: 8px;
 }
+
 .comments :nth-child(2) {
   color: #8e8e8e8e;
 }
+
 .comment-time p {
   color: #8e8e8e8e;
   margin-top: 5px;
 }
+
 .post-footer ion-icon:nth-child(4) {
   position: relative;
   left: 455px;
   font-size: 22px;
 }
+
 .add-comment {
   width: 612px;
   position: absolute;
@@ -242,73 +276,87 @@ a :visited {
   display: flex;
   justify-content: space-between;
 }
+
 .add-comment input {
   margin-top: 5px;
   width: 80%;
   border: none;
   text-decoration: none;
 }
+
 .add-comment ion-icon {
   font-size: 22px;
 }
+
 .add-comment ::placeholder {
   float: left;
   margin-top: 5px;
 }
+
 .add-comment button {
   background-color: transparent;
-  color: #B2DFFC;
+  color: #b2dffc;
   border: none;
   margin-right: 5px;
   font-weight: 700;
 }
+
 .add-comment button:hover {
-  color: #0095F6;
+  color: #0095f6;
   transition: 300ms;
 }
+
 .suggestions-content img {
   width: 56px;
   height: 56px;
   border-radius: 50%;
   margin-top: 20px;
 }
+
 .suggestions-content {
-    position: relative;
+  position: relative;
 }
+
 .suggestions a {
   position: relative;
   left: 20px;
 }
+
 .user :nth-child(3) {
   color: #139ef2;
 }
+
 .user :nth-child(2) {
   color: #8e8e8e8e;
 }
+
 .user {
-    position: absolute;
-    top: 20px;
-    right: 130px;
+  position: absolute;
+  top: 20px;
+  right: 130px;
 }
+
 .user p {
-    margin: 5px;
-    font-size: 14px;
-    font-weight: 500;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .suggestions-content p {
   font-size: 14px;
 }
+
 .suggestions-p {
-    font-size: 12px;
-    font-weight: 500;
-    color: #8e8e8e8e;
-    display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8e8e8e;
+  display: inline-block;
 }
+
 .suggestions a {
-    color: #000000;
-    font-weight: bold;
-    float: right;
+  color: #000000;
+  font-weight: bold;
+  float: right;
 }
 
 .comments ion-icon {
@@ -322,69 +370,81 @@ a :visited {
   top: 88%;
   font-size: 20px;
 }
+
 .like2 {
   position: absolute;
   left: 94.5%;
   top: 85%;
   font-size: 20px;
 }
+
 .container-suggestions {
-    width: 293px;
-    margin-top: 88px;
-    position: fixed;
-    top: 0;
-    left: 950px;
+  width: 293px;
+  margin-top: 88px;
+  position: fixed;
+  top: 0;
+  left: 950px;
 }
+
 .profile img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-.container-profile{
+
+.container-profile {
   display: flex;
   flex-direction: column;
 }
+
 .profile {
   display: flex;
   width: fit-content;
 }
-.video{
-    width: 612px;
-    height: 612px;
+
+.video {
+  width: 612px;
+  height: 612px;
 }
+
 .profile-img {
   display: flex;
   flex-direction: column;
 }
-.user-name p{
+
+.user-name p {
   display: flex;
   flex-direction: column;
   margin: 9%;
 }
+
 .user-name-p {
   font-size: 12px;
   font-weight: 400;
   color: #8e8e8e8e;
 }
+
 .follow {
   display: flex;
   flex-direction: column;
   font-size: 12px;
   font-weight: 500;
-  color: #139EF2;
+  color: #139ef2;
   position: relative;
   left: 100px;
   bottom: 5px;
   justify-content: space-between;
 }
+
 .bottom {
   font-size: 11px;
-  color: #C7C7C7;
-  
+  color: #c7c7c7;
+
   display: flex;
   align-items: center;
 }
+
 .container-bottom {
   width: 300px;
   height: fit-content;
@@ -394,21 +454,70 @@ a :visited {
   top: 300px;
   right: 210px;
 }
+
 .bottom-name {
   font-size: 11px;
-  color: #C7C7C7;
+  color: #c7c7c7;
 }
+
 .barra-fixa-inferior-mobile {
   display: none;
 }
 
 @media (max-width: 935px) {
+  .navbar {
+    margin: 0 auto;
+  }
   .container-suggestions {
     display: none;
   }
-  .navbar {
-    width: 100%;
+  .container-stories,
+  .container-posts {
+    left: 150px;
   }
-   
-} 
+  @media (max-width: 614px) {
+    .navbar img {
+      width: 100%;
+      border: none;
+      align-items: center;
+      position: relative;
+      left: 350px;
+    }
+    .logo ion-icon{
+      margin-left: 10px;
+    }
+    .enviar {
+      margin-left: 110px;
+    }
+    .icon-bussola,
+    .icon-amei,
+    .icon-pessoas,
+    .Pesquisar {
+      display: none;
+    }
 
+    .barra-fixa-inferior-mobile {
+      position: fixed;
+      bottom: 0px;
+      height: 54px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid #dbdbdb;
+      background-color: #ffffff;
+      z-index: 2;
+    }
+    .limitador-barra-fixa-inferior-mobile {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      font-size: 22px;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+  }
+}
